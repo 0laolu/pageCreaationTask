@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+h1, h2 {
+    padding-bottom: 0.5rem;
+}
+
+.display-name {
+    margin-bottom: 3rem;
+}
+
+.day {
+    margin: 3rem 0;
+}
+
+.utc-time {
+    margin-bottom: 3rem;
+}
+
+.track {
+    margin-bottom: 3rem;
+}

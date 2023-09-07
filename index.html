@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Page Creation with Specific Elements</title>
+</head>
+<body>
+    <main class="page-container">
+       <div class="display-name">
+            <h1>Slack Username</h1>
+            <h3 data-testid="slackUserName">ManWithNoRizz</h3>
+       </div>
+
+        <figure >
+            <h2>Display Image</h2>
+            <img src="display-image.jpg" alt="ManWithNoRizz" data-testid="slackDisplayImage">
+        </figure>
+
+        <div class="day">
+            <h2>Current Day Of The Week</h2>
+            <p data-testid="currentDayOfTheWeek"></p>
+        </div>
+
+        <div class="utc-time">
+            <h2>UTC Time in Milliseconds</h2>
+            <p data-testid="currentUTCTime"></p>
+        </div>
+
+        <div class="track">
+            <h2>Track</h2>
+            <p data-testid="myTrack">Frontend</p>
+        </div>
+
+        <div class="github-url">
+            <a href="https://github.com/0laolu/pageCreaationTask" data-testid="githubURL"></a>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
